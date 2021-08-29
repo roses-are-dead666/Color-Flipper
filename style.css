@@ -1,0 +1,106 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background: #666699;    
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;   
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+nav {
+    background-color: #ff8196;
+    padding: 20px;
+    box-shadow: 5px 5px 20px;
+}
+
+.verticalLine {
+    border-left: 3px solid #fff;
+    margin-right: 20px;
+  }
+  
+.navCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItems {
+    display: flex;
+}
+
+h4 {
+    margin-right: 150px;
+    font-size: 30px;
+    color: rgb(253, 205, 48);
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+
+li a:hover{
+    color: rgb(14, 206, 219);
+}
+
+.container {
+    width: 100%;  
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    background: rgb(253, 205, 48);
+    text-align: center;
+    width: 500px;
+    padding: 20px 5px;
+    border-radius: 10px;
+    color: rgb(70, 70, 70);
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 10px;
+}
+
+#color {
+    text-transform: uppercase;
+}
+
+.btnHero {
+    width: 120px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background: rgb(224, 83, 83);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 0 0 10px;
+}
+
+.btnHero:hover {
+    background: rgb(180, 39, 39);
+}
